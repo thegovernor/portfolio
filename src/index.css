@@ -29,6 +29,21 @@ code {
   background-size: cover;
   background-position: center;
 }
+
+  @media screen and (max-width: 581px) {
+    .background{
+      background-image:none;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+  .div1{
+    height: 400px;
+    width: 400px;
+    left: 80%;
+    top: 10%;
+  }
+}
 .div1{
 
   background-image:url(./Components/Images/description-moon.png);
